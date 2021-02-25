@@ -1,7 +1,7 @@
 #**************  Learning Stacks
 
 class Stack():
-    def __init__ (self):
+    def __init__ (self, item):
         self.itemlist = []
 
     def push(self, item):
